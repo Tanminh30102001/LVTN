@@ -153,7 +153,7 @@
                                             @endforeach
                                         </select>
                                     </div>
-                                            <div class="mb-2 mt-2">
+                                            {{-- <div class="mb-2 mt-2">
                                                 <label for="subcategory_id" class="form-label" >Product Attributes</label>
                                                 <div class="row"> 
                                                     <div class="col-lg-11">
@@ -166,7 +166,7 @@
                                                     </div>
                                                     <div class="col-lg-1"> <button class="btn btn-danger float-end" wire:click.prevent="addAttr"> Add</button></div>
                                                 </div>
-                                            </div>
+                                            </div> --}}
                                             @foreach($inputs as $key=>$value)
                                             <div class="mb-3 mt-3">
                                                 <label class="form-label"> {{$pattributes->where('id',$attr_array[$key])->first()->name}}</label>
