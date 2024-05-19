@@ -29,7 +29,7 @@
             </div>
             <div class="shopping-cart-button">
                 <a href="{{route('shop.cart')}}" class="outline">{{__('Xem giỏ hàng')}}</a>
-                <a href="{{route('shop.checkout')}}">{{_('Thanh toán')}}</a>
+                <a href="{{route('shop.checkout')}}">Thanh toán</a>
             </div>
         </div>
     </div>
